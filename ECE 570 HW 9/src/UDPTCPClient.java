@@ -30,7 +30,6 @@ public class UDPTCPClient {
 	public static void main(String[] args) {
 		String preamble = 	"NCSU" + "200091906";
 		Integer studentID = 200091906;
-		Integer.reverseBytes(studentID);
 		
 		String datatoSend = 	"Joshua Hofmann\n" +
 					"200091906\n" ;
